@@ -1,0 +1,23 @@
+body{
+    background: grey;
+}
+        
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+        
+        
+        
+        body{
+            max-width: 1200px ;
+            margin: 20px;
+            padding: 0 20px;
+            font-family: 'Noto Serif', serif;
+        }
+         p,h1,h2,h3,a,ul{
+             margin: 0;
+             padding: 0;
+             text-decoration: none;
+             color: 'red';
+
+         }
+        
+        

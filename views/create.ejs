@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <%- include (   './partials/head.ejs' )%>
+
+    <h1>CREATE PAGE</h1>    
+
+    <title>blog this| <%=title %></title>
+
+<body>
+    <%- include (   './partials/nav.ejs' )%>
+
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" value="John"><br><br>
+        <label for="fname">Second name:</label><br>
+        <input type="text" id="fname" value="b"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+</body>
+<%- include (   './partials/footer.ejs' )%>
+
+</html>
